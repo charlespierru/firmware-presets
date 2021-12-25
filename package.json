@@ -4,7 +4,8 @@
 	"description" : "Collection of CLI-based presets",
 	"scripts" : {
 		"index" : "node indexer/indexer.js",
-		"verify" : "node indexer/check.js"
+		"verify" : "node indexer/check.js",
+		"update": "npm run verify && npm run index"
 	},
 	"repository" : {
 		"type" : "git",

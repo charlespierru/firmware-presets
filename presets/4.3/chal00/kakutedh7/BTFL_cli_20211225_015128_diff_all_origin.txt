@@ -1,0 +1,45 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / KAKUTEH7 (KTH7) 4.3.0 Nov  9 2021 / 11:26:18 (norevision) MSP API: 1.44
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name KAKUTEH7
+manufacturer_id HBRO
+mcu_id 003700463330511636353839
+signature 
+
+profile 0
+
+profile 1
+
+profile 2
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
